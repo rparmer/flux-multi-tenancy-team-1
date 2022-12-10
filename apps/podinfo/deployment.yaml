@@ -1,8 +1,8 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: podinfo
-  namespace: team-2
+  name: podinfo-team-1
+  namespace: team-1
 spec:
   minReadySeconds: 3
   revisionHistoryLimit: 5
@@ -13,14 +13,14 @@ spec:
     type: RollingUpdate
   selector:
     matchLabels:
-      app: podinfo
+      app: podinfo-team-1
   template:
     metadata:
       annotations:
         prometheus.io/scrape: "true"
         prometheus.io/port: "9797"
       labels:
-        app: podinfo
+        app: podinfo-team-1
     spec:
       containers:
       - name: podinfod

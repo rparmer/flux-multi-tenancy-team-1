@@ -1,8 +1,8 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: podinfo
-  namespace: team-2
+  name: podinfo-team-1
+  namespace: team-1
 spec:
   type: ClusterIP
   selector:
