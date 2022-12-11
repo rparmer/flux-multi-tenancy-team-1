@@ -5,7 +5,7 @@ metadata:
   namespace: team-1
 spec:
   interval: 10m0s
-  # serviceAccountName: team-1
+  serviceAccountName: team-1
   sourceRef:
     kind: GitRepository
     name: team-1
