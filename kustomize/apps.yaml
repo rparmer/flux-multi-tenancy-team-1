@@ -9,6 +9,6 @@ spec:
   sourceRef:
     kind: GitRepository
     name: team-1
-  path: ./apps
+  path: ./apps/podinfo
   prune: true
   validation: client
