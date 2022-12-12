@@ -10,6 +10,6 @@ spec:
     kind: GitRepository
     name: team-1
     namespace: team-2
-  path: ./apps
+  path: ./apps/fail
   prune: true
   validation: client
