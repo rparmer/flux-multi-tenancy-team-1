@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: podinfo-team-1
-  namespace: team-2
+  namespace: team-1
 spec:
   minReadySeconds: 3
   revisionHistoryLimit: 5
